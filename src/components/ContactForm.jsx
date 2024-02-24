@@ -3,7 +3,7 @@ import css from './phonebook.module.css';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { nanoid } from 'nanoid';
-import { addContact } from './actions';
+import { addContact } from '../redux/actions';
 
 function ContactForm({ handleSubmit }) {
   const [name, setName] = useState('');

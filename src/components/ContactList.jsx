@@ -3,7 +3,7 @@ import ContactItem from './ContactItem.jsx';
 import css from './phonebook.module.css';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from './actions.jsx';
+import { deleteContact } from '../redux/actions.js';
 
 const ContactList = ({ contacts }) => {
   const dispatch = useDispatch();

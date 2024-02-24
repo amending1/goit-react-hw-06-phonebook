@@ -4,9 +4,9 @@ import ContactForm from './ContactForm.jsx';
 import ContactList from './ContactList.jsx';
 import Filter from './Filter.jsx';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from './actions.jsx';
-import { setFilter } from './actions.jsx';
-import { deleteContact } from './actions.jsx';
+import { addContact } from '../redux/actions.js';
+import { setFilter } from '../redux/actions.js';
+import { deleteContact } from '../redux/actions.js';
 
 
 
